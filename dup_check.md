@@ -1,4 +1,4 @@
-##Dup Checker
+## Dup Checker
 
 ```javascript
 var dpchk = new GlideAggregate('table');
