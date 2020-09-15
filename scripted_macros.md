@@ -6,7 +6,7 @@ The following macros are available by default. Administrators can define additio
 
 To view a list of the macros that are available in your system, type help in a script field and press Tab.
 
-vargror
+### vargror
 --------
 GlideRecord query with OR condition
 ```javascript
@@ -19,7 +19,7 @@ while (gr.next()) {
 }
 ```
 
-vargr
+### vargr
 --------
 GlideRecord query examples
 ```javascript
@@ -31,7 +31,7 @@ If (gr.next()) {
 }
 ```
 
-method
+### method
 --------
 Standard JavaScript class method
 ```javascript
@@ -45,14 +45,14 @@ Standard JavaScript class method
    },
 ```
 
-info
+### info
 --------
 Add an info message to the current session
 ```javascript
 gs.addInfoMessage("$0");
 ```
 
-for
+### for
 --------
 Standard loop for arrays
 ```javascript
@@ -61,7 +61,7 @@ for (var i=0; i< myArray.length; i++) {
 }
 ```
 
-doc
+### doc
 --------
 Code documentation (comment) header
 ```javascript
