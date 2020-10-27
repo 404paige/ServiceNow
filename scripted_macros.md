@@ -61,6 +61,15 @@ for (var i=0; i< myArray.length; i++) {
 }
 ```
 
+### for alternative
+--------
+Another way to look through arrays and easier to remember
+```js
+for (var i in myArray) {
+  myArray[i];
+}
+```
+
 ### doc
 --------
 Code documentation (comment) header
